@@ -117,7 +117,7 @@ Metro Red:
         .mdc-dialog__surface {
           backdrop-filter: blur(16px);
           -webkit-backdrop-filter: blur(16px);
-          background-color: rgba(var(--rgb-mdc-theme-surface), .5) !important;
+          background-color: rgba(var(--rgb-mdc-theme-surface), .85) !important;
         }
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface,
@@ -132,7 +132,7 @@ Metro Red:
         .mdc-dialog__surface {
           backdrop-filter: blur(16px);
           -webkit-backdrop-filter: blur(16px);
-          background-color: rgba(var(--rgb-mdc-theme-surface), .5) !important;
+          background-color: rgba(var(--rgb-mdc-theme-surface), .85) !important;
         }
       }
       .mdc-dialog__surface {
