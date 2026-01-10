@@ -1017,12 +1017,89 @@ Fluent Green:
       card-background-color: "rgb(36,40,38)"
       rgb-card-background-color: "36,40,38"
 
-    light: 
+    light:
       <<: *fluent-common-light
       secondary-background-color: "rgb(210,249,231)"
       rgb-secondary-background-color: "210,249,231"
       card-background-color: "rgb(239,245,243)"
       rgb-card-background-color: "239,245,243"
+
+
+
+Metro Neon Green:
+  <<: *common-card-mods
+  card-mod-theme: "Metro Neon Green"
+
+  primary-color: "#39FF14"
+  rgb-primary-color: "57, 255, 20"
+  rgb-primary-color-darker: "28, 179, 10"
+  rgb-primary-color-lighter: "102, 255, 77"
+  hue-primary-color: "110deg"
+
+  accent-color: "#66FF4D"
+  rgb-accent-color: "102, 255, 77"
+
+  # HA 2025.8+ Primary Color Palette (Neon Green)
+  ha-color-primary-05: "#051a02"
+  ha-color-primary-10: "#0b3305"
+  ha-color-primary-20: "#166609"
+  ha-color-primary-30: "#21990e"
+  ha-color-primary-40: "#39ff14"
+  ha-color-primary-50: "#5fff3d"
+  ha-color-primary-60: "#7fff66"
+  ha-color-primary-70: "#9fff8f"
+  ha-color-primary-80: "#bfffb8"
+  ha-color-primary-90: "#dfffda"
+  ha-color-primary-95: "#efffec"
+
+  modes:
+    dark:
+      <<: *metro-common-dark
+    light:
+      <<: *metro-common-light
+
+Fluent Neon Green:
+  <<: *common-card-mods
+  card-mod-theme: "Fluent Neon Green"
+
+  primary-color: "#39FF14"
+  rgb-primary-color: "57, 255, 20"
+  rgb-primary-color-darker: "28, 179, 10"
+  rgb-primary-color-lighter: "102, 255, 77"
+  hue-primary-color: "110deg"
+
+  accent-color: "#66FF4D"
+  rgb-accent-color: "102, 255, 77"
+
+  # HA 2025.8+ Primary Color Palette (Neon Green)
+  ha-color-primary-05: "#051a02"
+  ha-color-primary-10: "#0b3305"
+  ha-color-primary-20: "#166609"
+  ha-color-primary-30: "#21990e"
+  ha-color-primary-40: "#39ff14"
+  ha-color-primary-50: "#5fff3d"
+  ha-color-primary-60: "#7fff66"
+  ha-color-primary-70: "#9fff8f"
+  ha-color-primary-80: "#bfffb8"
+  ha-color-primary-90: "#dfffda"
+  ha-color-primary-95: "#efffec"
+
+  modes:
+    dark:
+      <<: *fluent-common-dark
+      primary-background-color: "rgb(24,27,24)"
+      rgb-primary-background-color: "24,27,24"
+      secondary-background-color: "rgb(57,70,57)"
+      rgb-secondary-background-color: "57,70,57"
+      card-background-color: "rgb(36,40,36)"
+      rgb-card-background-color: "36,40,36"
+
+    light:
+      <<: *fluent-common-light
+      secondary-background-color: "rgb(218,255,210)"
+      rgb-secondary-background-color: "218,255,210"
+      card-background-color: "rgb(243,255,241)"
+      rgb-card-background-color: "243,255,241"
 
 
 
