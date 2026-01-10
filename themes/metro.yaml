@@ -1,7 +1,9 @@
 # Metrology Themes for Home Assistant
-# Created by Madelena Mak 2022 https://mmak.es
-# https://github.com/Madelena/Metrology-for-Hass
-
+# Originally created by Madelena Mak 2022 https://mmak.es
+# Fork maintained at https://github.com/jsenecal/Metrology-for-Hass
+#
+# Requires Home Assistant 2025.5+ (font system) and 2025.8+ (color palette)
+#
 # To add your own custom color, see the examples at the end of this file.
 
 
@@ -66,16 +68,45 @@ ________________________________________Common Base (Do Not Use): &common-colors
   # Typography
   font-stack: &font-stack "Segoe UI Variable Static Text, Segoe UI, SegoeUI, -apple-system,BlinkMacSystemFont, system-ui, sans-serif"
   display-font-stack: &display-font-stack "Segoe UI Variable Static Display, Segoe UI, SegoeUI, -apple-system,BlinkMacSystemFont, system-ui, sans-serif"
+  code-font-stack: &code-font-stack "Cascadia Code, Consolas, Monaco, monospace"
+
+  # HA 2025.5+ Font System
+  ha-font-family-body: var(--font-stack)
+  ha-font-family-heading: var(--display-font-stack)
+  ha-font-family-code: var(--code-font-stack)
+  ha-font-family-longform: var(--font-stack)
+  ha-font-smoothing: antialiased
+
+  # HA 2025.5+ Font Sizes
+  ha-font-size-2xs: 0.625rem
+  ha-font-size-xs: 0.75rem
+  ha-font-size-s: 0.875rem
+  ha-font-size-m: 1rem
+  ha-font-size-l: 1.125rem
+  ha-font-size-xl: 1.25rem
+  ha-font-size-2xl: 1.5rem
+  ha-font-size-3xl: 2rem
+  ha-font-size-4xl: 3rem
+  ha-font-size-scale: 1
+
+  # HA 2025.5+ Font Weights
+  ha-font-weight-light: 300
+  ha-font-weight-normal: 400
+  ha-font-weight-medium: 500
+  ha-font-weight-semibold: 600
+  ha-font-weight-bold: 700
+  ha-font-weight-body: var(--ha-font-weight-normal)
+  ha-font-weight-heading: var(--ha-font-weight-semibold)
+  ha-font-weight-action: var(--ha-font-weight-medium)
+
+  # HA 2025.5+ Line Heights
+  ha-line-height-condensed: 1.2
+  ha-line-height-normal: 1.5
+  ha-line-height-expanded: 1.8
+
+  # MDC Typography
   mdc-typography-button-font-family: var(--font-stack)
   mdc-typography-font-family: var(--font-stack)
-  paper-font-common-base_-_font-family: var(--font-stack)
-  paper-font-title_-_font-family: var(--display-font-stack)
-  paper-font-headline_-_font-family: var(--display-font-stack)
-  paper-font-subhead_-_font-family: var(--display-font-stack)
-  paper-font-display1_-_font-family: var(--display-font-stack)
-  paper-font-display2_-_font-family: var(--display-font-stack)
-  paper-font-display3_-_font-family: var(--display-font-stack)
-  paper-font-display4_-_font-family: var(--display-font-stack)
 
   # Body at 14px = 10.5pt = 1rem
   body-font-size: 1rem
@@ -91,7 +122,7 @@ ________________________________________Common Base (Do Not Use): &common-colors
   subtitle-font-weight: 600
   subtitle-line-height: normal
   small-font-size: 0.9rem
-  
+
   h1-font-size: 2.85rem
   h2-font-size: 2.25rem
   h3-font-size: 2rem
@@ -117,26 +148,9 @@ ________________________________________Common Base (Do Not Use): &common-colors
 
   ha-card-header-font-size: var(--card-title-font-size)
 
-  paper-font-headline_-_font-size: 3.5rem
-  paper-font-headline_-_font-weight: 600
-  paper-font-headline_-_letter-spacing: 0
-  paper-font-headline_-_line-height: 1.4
-
-  paper-font-title_-_font-size: var(--card-title-font-size)
-  paper-font-title_-_font-weight: var(--card-title-font-weight)
-  paper-font-title_-_line-height: var(--card-title-line-height)
-
   material-small-font-size: 0.875rem
   material-caption-font-size: 0.7rem
   material-button-font-size: 1rem
-
-  # Disabled this because without button borders, the buttons have bad affordance.
-  # mdc-typography-button-font-size: var(--body-font-size)
-  # mdc-typography-button-line-height: var(--body-line-height)
-  # mdc-typography-button-font-weight: var(--body-font-weight)
-  # mdc-typography-button-letter-spacing: 0
-  # mdc-typography-button-text-decoration: none
-  # mdc-typography-button-text-transform: none
 
   mush-title-font-size: var(--title-font-size)
   mush-title-font-weight: 600
@@ -343,6 +357,19 @@ ________________________________________Common Base (Do Not Use): &common-colors
   rgb-state-update-color: var(--rgb-success-color)
   rgb-state-update-installing-color: var(--rgb-warning-color)
   rgb-state-vacuum-color: var(--rgb-primary-color)
+
+  # HA 2025.8+ Neutral Color Palette
+  ha-color-neutral-05: "#0d0d0d"
+  ha-color-neutral-10: "#1a1a1a"
+  ha-color-neutral-20: "#333333"
+  ha-color-neutral-30: "#4d4d4d"
+  ha-color-neutral-40: "#666666"
+  ha-color-neutral-50: "#808080"
+  ha-color-neutral-60: "#999999"
+  ha-color-neutral-70: "#b3b3b3"
+  ha-color-neutral-80: "#cccccc"
+  ha-color-neutral-90: "#e6e6e6"
+  ha-color-neutral-95: "#f2f2f2"
 
 ________________________________________Common Base 2 (Do Not Use):
 
@@ -781,6 +808,19 @@ Metro Red:
   accent-color: "#e90062"
   rgb-accent-color: "233, 0, 98"
 
+  # HA 2025.8+ Primary Color Palette (Red)
+  ha-color-primary-05: "#1a000b"
+  ha-color-primary-10: "#330016"
+  ha-color-primary-20: "#66002c"
+  ha-color-primary-30: "#990042"
+  ha-color-primary-40: "#c30052"
+  ha-color-primary-50: "#e90062"
+  ha-color-primary-60: "#ff1a7a"
+  ha-color-primary-70: "#ff4d96"
+  ha-color-primary-80: "#ff80b3"
+  ha-color-primary-90: "#ffb3d0"
+  ha-color-primary-95: "#ffe6ef"
+
   modes:
     dark:
       <<: *metro-common-dark
@@ -799,6 +839,19 @@ Fluent Red:
 
   accent-color: "#e90062"
   rgb-accent-color: "233, 0, 98"
+
+  # HA 2025.8+ Primary Color Palette (Red)
+  ha-color-primary-05: "#1a000b"
+  ha-color-primary-10: "#330016"
+  ha-color-primary-20: "#66002c"
+  ha-color-primary-30: "#990042"
+  ha-color-primary-40: "#c30052"
+  ha-color-primary-50: "#e90062"
+  ha-color-primary-60: "#ff1a7a"
+  ha-color-primary-70: "#ff4d96"
+  ha-color-primary-80: "#ff80b3"
+  ha-color-primary-90: "#ffb3d0"
+  ha-color-primary-95: "#ffe6ef"
 
   modes:
     dark:
@@ -832,6 +885,19 @@ Metro Blue:
   accent-color: "#008dfd"
   rgb-accent-color: "0,141,253"
 
+  # HA 2025.8+ Primary Color Palette (Blue)
+  ha-color-primary-05: "#001321"
+  ha-color-primary-10: "#002642"
+  ha-color-primary-20: "#004c85"
+  ha-color-primary-30: "#0062ab"
+  ha-color-primary-40: "#0078d7"
+  ha-color-primary-50: "#008dfd"
+  ha-color-primary-60: "#33a4ff"
+  ha-color-primary-70: "#66bbff"
+  ha-color-primary-80: "#99d2ff"
+  ha-color-primary-90: "#cce9ff"
+  ha-color-primary-95: "#e6f4ff"
+
   modes:
     dark:
       <<: *metro-common-dark
@@ -850,6 +916,19 @@ Fluent Blue:
 
   accent-color: "#008dfd"
   rgb-accent-color: "0,141,253"
+
+  # HA 2025.8+ Primary Color Palette (Blue)
+  ha-color-primary-05: "#001321"
+  ha-color-primary-10: "#002642"
+  ha-color-primary-20: "#004c85"
+  ha-color-primary-30: "#0062ab"
+  ha-color-primary-40: "#0078d7"
+  ha-color-primary-50: "#008dfd"
+  ha-color-primary-60: "#33a4ff"
+  ha-color-primary-70: "#66bbff"
+  ha-color-primary-80: "#99d2ff"
+  ha-color-primary-90: "#cce9ff"
+  ha-color-primary-95: "#e6f4ff"
 
   modes:
     dark: 
@@ -883,6 +962,19 @@ Metro Green:
   accent-color: "#00f17d"
   rgb-accent-color: "0, 241, 125"
 
+  # HA 2025.8+ Primary Color Palette (Green)
+  ha-color-primary-05: "#001a0d"
+  ha-color-primary-10: "#00331a"
+  ha-color-primary-20: "#006635"
+  ha-color-primary-30: "#00994f"
+  ha-color-primary-40: "#00cb6a"
+  ha-color-primary-50: "#00f17d"
+  ha-color-primary-60: "#33ff99"
+  ha-color-primary-70: "#66ffb3"
+  ha-color-primary-80: "#99ffcc"
+  ha-color-primary-90: "#ccffe6"
+  ha-color-primary-95: "#e6fff2"
+
   modes:
     dark:
       <<: *metro-common-dark
@@ -901,6 +993,19 @@ Fluent Green:
 
   accent-color: "#00f17d"
   rgb-accent-color: "0, 241, 125"
+
+  # HA 2025.8+ Primary Color Palette (Green)
+  ha-color-primary-05: "#001a0d"
+  ha-color-primary-10: "#00331a"
+  ha-color-primary-20: "#006635"
+  ha-color-primary-30: "#00994f"
+  ha-color-primary-40: "#00cb6a"
+  ha-color-primary-50: "#00f17d"
+  ha-color-primary-60: "#33ff99"
+  ha-color-primary-70: "#66ffb3"
+  ha-color-primary-80: "#99ffcc"
+  ha-color-primary-90: "#ccffe6"
+  ha-color-primary-95: "#e6fff2"
 
   modes:
     dark: 
@@ -934,6 +1039,19 @@ Metro Orange:
   accent-color: "#ff9d00"
   rgb-accent-color: "255, 157, 0"
 
+  # HA 2025.8+ Primary Color Palette (Orange)
+  ha-color-primary-05: "#1a0e00"
+  ha-color-primary-10: "#331c00"
+  ha-color-primary-20: "#663800"
+  ha-color-primary-30: "#995400"
+  ha-color-primary-40: "#cc7000"
+  ha-color-primary-50: "#ff8c00"
+  ha-color-primary-60: "#ffa333"
+  ha-color-primary-70: "#ffba66"
+  ha-color-primary-80: "#ffd199"
+  ha-color-primary-90: "#ffe8cc"
+  ha-color-primary-95: "#fff4e6"
+
   modes:
     dark:
       <<: *metro-common-dark
@@ -952,6 +1070,19 @@ Fluent Orange:
 
   accent-color: "#ff9d00"
   rgb-accent-color: "255, 157, 0"
+
+  # HA 2025.8+ Primary Color Palette (Orange)
+  ha-color-primary-05: "#1a0e00"
+  ha-color-primary-10: "#331c00"
+  ha-color-primary-20: "#663800"
+  ha-color-primary-30: "#995400"
+  ha-color-primary-40: "#cc7000"
+  ha-color-primary-50: "#ff8c00"
+  ha-color-primary-60: "#ffa333"
+  ha-color-primary-70: "#ffba66"
+  ha-color-primary-80: "#ffd199"
+  ha-color-primary-90: "#ffe8cc"
+  ha-color-primary-95: "#fff4e6"
 
   modes:
     dark: 
@@ -985,6 +1116,19 @@ Metro Purple:
   accent-color: "#A94DFF"
   rgb-accent-color: "169, 77, 255"
 
+  # HA 2025.8+ Primary Color Palette (Purple)
+  ha-color-primary-05: "#0d001a"
+  ha-color-primary-10: "#1a0033"
+  ha-color-primary-20: "#350066"
+  ha-color-primary-30: "#4f0099"
+  ha-color-primary-40: "#6a00cb"
+  ha-color-primary-50: "#8000ff"
+  ha-color-primary-60: "#9933ff"
+  ha-color-primary-70: "#b366ff"
+  ha-color-primary-80: "#cc99ff"
+  ha-color-primary-90: "#e6ccff"
+  ha-color-primary-95: "#f2e6ff"
+
   modes:
     dark:
       <<: *metro-common-dark
@@ -1003,6 +1147,19 @@ Fluent Purple:
 
   accent-color: "#A94DFF"
   rgb-accent-color: "169, 77, 255"
+
+  # HA 2025.8+ Primary Color Palette (Purple)
+  ha-color-primary-05: "#0d001a"
+  ha-color-primary-10: "#1a0033"
+  ha-color-primary-20: "#350066"
+  ha-color-primary-30: "#4f0099"
+  ha-color-primary-40: "#6a00cb"
+  ha-color-primary-50: "#8000ff"
+  ha-color-primary-60: "#9933ff"
+  ha-color-primary-70: "#b366ff"
+  ha-color-primary-80: "#cc99ff"
+  ha-color-primary-90: "#e6ccff"
+  ha-color-primary-95: "#f2e6ff"
 
   modes:
     dark: 
@@ -1038,6 +1195,19 @@ Metro Slate:
   accent-color: "#677385"
   rgb-accent-color: "101,115,134"
 
+  # HA 2025.8+ Primary Color Palette (Slate)
+  ha-color-primary-05: "#0d0e10"
+  ha-color-primary-10: "#1a1c1f"
+  ha-color-primary-20: "#33383f"
+  ha-color-primary-30: "#414954"
+  ha-color-primary-40: "#4f5a68"
+  ha-color-primary-50: "#5d6b7c"
+  ha-color-primary-60: "#7a8695"
+  ha-color-primary-70: "#98a2ad"
+  ha-color-primary-80: "#b6bdc6"
+  ha-color-primary-90: "#d4d9de"
+  ha-color-primary-95: "#eaecef"
+
   modes:
     dark:
       <<: *metro-common-dark
@@ -1057,6 +1227,19 @@ Fluent Slate:
 
   accent-color: "#677385"
   rgb-accent-color: "101,115,134"
+
+  # HA 2025.8+ Primary Color Palette (Slate)
+  ha-color-primary-05: "#0d0e10"
+  ha-color-primary-10: "#1a1c1f"
+  ha-color-primary-20: "#33383f"
+  ha-color-primary-30: "#414954"
+  ha-color-primary-40: "#4f5a68"
+  ha-color-primary-50: "#5d6b7c"
+  ha-color-primary-60: "#7a8695"
+  ha-color-primary-70: "#98a2ad"
+  ha-color-primary-80: "#b6bdc6"
+  ha-color-primary-90: "#d4d9de"
+  ha-color-primary-95: "#eaecef"
 
   modes:
     dark:

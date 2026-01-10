@@ -2,19 +2,42 @@
 
 # Metrology for Home Assistant
 
+> **Note:** This is a maintained fork of [Madelena/Metrology-for-Hass](https://github.com/Madelena/Metrology-for-Hass) with updates for Home Assistant 2025.5+ and 2025.8+ compatibility.
+
 Metrology is a practical series of app customizations and redesigns aimed at bringing a bold, clear, and consistent user experience to [various Windows and Android apps](https://github.com/Madelena?tab=repositories&q=Metrology). Its design language is based on [Metro](https://en.wikipedia.org/wiki/Metro_(design_language)) and [Fluent](https://www.microsoft.com/design/fluent/) design systems pioneered by Microsoft Design since the 2010s.
 
 [Home Assistant](https://www.home-assistant.io/) is an open source home automation server that integrates nearly 2000 existing IoT services into one powerful, private, and unified user interface. It is perfect to run on a Raspberry Pi or a local server.
 
 Here is a collection of themes, tweaks, and template buttons to make your Home Assistant look bold, modern, and clean.
 
-**Discuss this theme on [Home Assistant Community](https://community.home-assistant.io/t/metrology-metro-fluent-windows-themes-for-home-assistant/419530) or [Reddit](https://www.reddit.com/r/homeassistant/comments/ui1uga/theme_metrology_metro_fluent_windows_themes_for/).**
+## Fork Changes
 
-To check out what this theme is capable of, check out my [Home Assistant config](https://github.com/Madelena/hass-config-public).
+This fork includes the following updates:
+
+- **Home Assistant 2025.5+ compatibility**: Added new `ha-font-family-*`, `ha-font-size-*`, `ha-font-weight-*`, and `ha-line-height-*` variables
+- **Home Assistant 2025.8+ compatibility**: Added `ha-color-primary-*` and `ha-color-neutral-*` color palettes for proper button theming
+- **Removed deprecated variables**: Cleaned up legacy `paper-font-*` variables
+- **Browser Mod support**: Added from upstream contributions
+
+**Minimum requirement:** Home Assistant 2025.5+
+
+---
+
+**Discuss the original theme on [Home Assistant Community](https://community.home-assistant.io/t/metrology-metro-fluent-windows-themes-for-home-assistant/419530) or [Reddit](https://www.reddit.com/r/homeassistant/comments/ui1uga/theme_metrology_metro_fluent_windows_themes_for/).**
+
+To check out what this theme is capable of, check out Madelena's [Home Assistant config](https://github.com/Madelena/hass-config-public).
+
+### Support
+
+Support this fork:
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/jsenecal?style=for-the-badge&logo=github&label=Sponsor%20%40jsenecal)](https://github.com/sponsors/jsenecal)
+
+Support the original creator:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/madelena)
 
-**✨ Thank you @legovaer and @pbohannon for your generous support! ✨**
+**✨ Thank you @legovaer and @pbohannon for your generous support of the original project! ✨**
 
 ## Table of Contents
 
