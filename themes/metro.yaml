@@ -13,7 +13,7 @@
 
 # BASE THEME
 
-________________________________________Common Base (Do Not Use): &common-colors
+.common-base: &common-colors
 
   # Text Colors
   text-primary-color: var(--primary-text-color)
@@ -371,7 +371,7 @@ ________________________________________Common Base (Do Not Use): &common-colors
   ha-color-neutral-90: "#e6e6e6"
   ha-color-neutral-95: "#f2f2f2"
 
-________________________________________Common Base 2 (Do Not Use):
+.common-modes:
 
   modes:
     dark: &common-dark
@@ -434,7 +434,7 @@ ________________________________________Common Base 2 (Do Not Use):
 ############################################
 
 
-________________________________________Common Base 3 (Do Not Use): &common-card-mods
+.common-card-mods: &common-card-mods
 
   # Card Mod
   card-mod-row-yaml: &card-mod-row |
@@ -702,7 +702,7 @@ ________________________________________Common Base 3 (Do Not Use): &common-card
 
 # Base Metro Theme
 
-________________________________________Common Base 4 (Do Not Use):
+.metro-base:
 
   modes:
     dark: &metro-common-dark
@@ -753,7 +753,7 @@ ________________________________________Common Base 4 (Do Not Use):
 
 # Base Fluent Theme
 
-________________________________________Common Base 5 (Do Not Use):
+.fluent-base:
 
   modes:
     dark: &fluent-common-dark
