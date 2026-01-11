@@ -660,6 +660,176 @@ Metro Red:
       ha-color-neutral-90: "#e6e6e6"
       ha-color-neutral-95: "#f2f2f2"
 
+      # HA 2025.8+ Orange Color Palette (for warnings/focus)
+      ha-color-orange-05: "#1a0d00"
+      ha-color-orange-10: "#331a00"
+      ha-color-orange-20: "#663300"
+      ha-color-orange-30: "#994d00"
+      ha-color-orange-40: "#cc6600"
+      ha-color-orange-50: "#ff8000"
+      ha-color-orange-60: "#ff9933"
+      ha-color-orange-70: "#ffb366"
+      ha-color-orange-80: "#ffcc99"
+      ha-color-orange-90: "#ffe6cc"
+      ha-color-orange-95: "#fff2e6"
+
+      # HA 2025.8+ Red Color Palette (for errors/danger)
+      ha-color-red-05: "#1a0000"
+      ha-color-red-10: "#330000"
+      ha-color-red-20: "#660000"
+      ha-color-red-30: "#990000"
+      ha-color-red-40: "#cc0000"
+      ha-color-red-50: "#ff0000"
+      ha-color-red-60: "#ff3333"
+      ha-color-red-70: "#ff6666"
+      ha-color-red-80: "#ff9999"
+      ha-color-red-90: "#ffcccc"
+      ha-color-red-95: "#ffe6e6"
+
+      # HA 2025.8+ Green Color Palette (for success)
+      ha-color-green-05: "#001a00"
+      ha-color-green-10: "#003300"
+      ha-color-green-20: "#006600"
+      ha-color-green-30: "#009900"
+      ha-color-green-40: "#00cc00"
+      ha-color-green-50: "#00ff00"
+      ha-color-green-60: "#33ff33"
+      ha-color-green-70: "#66ff66"
+      ha-color-green-80: "#99ff99"
+      ha-color-green-90: "#ccffcc"
+      ha-color-green-95: "#e6ffe6"
+
+      # HA Semantic Colors - Focus
+      ha-color-focus: var(--ha-color-orange-60)
+
+      # HA Semantic Colors - Text
+      ha-color-text-primary: var(--primary-text-color)
+      ha-color-text-secondary: var(--secondary-text-color)
+      ha-color-text-disabled: var(--disabled-text-color)
+      ha-color-text-link: var(--primary-color)
+
+      # HA Semantic Colors - Border Primary
+      ha-color-border-primary-quiet: var(--ha-color-primary-20)
+      ha-color-border-primary-normal: var(--ha-color-primary-30)
+      ha-color-border-primary-loud: var(--ha-color-primary-40)
+
+      # HA Semantic Colors - Border Neutral
+      ha-color-border-neutral-quiet: var(--ha-color-neutral-20)
+      ha-color-border-neutral-normal: var(--ha-color-neutral-40)
+      ha-color-border-neutral-loud: var(--ha-color-neutral-60)
+
+      # HA Semantic Colors - Border Danger
+      ha-color-border-danger-quiet: var(--ha-color-red-20)
+      ha-color-border-danger-normal: var(--ha-color-red-30)
+      ha-color-border-danger-loud: var(--ha-color-red-40)
+
+      # HA Semantic Colors - Border Warning
+      ha-color-border-warning-quiet: var(--ha-color-orange-20)
+      ha-color-border-warning-normal: var(--ha-color-orange-30)
+      ha-color-border-warning-loud: var(--ha-color-orange-40)
+
+      # HA Semantic Colors - Border Success
+      ha-color-border-success-quiet: var(--ha-color-green-20)
+      ha-color-border-success-normal: var(--ha-color-green-30)
+      ha-color-border-success-loud: var(--ha-color-green-40)
+
+      # HA Semantic Colors - Fill Primary
+      ha-color-fill-primary-quiet-resting: var(--ha-color-primary-10)
+      ha-color-fill-primary-quiet-hover: var(--ha-color-primary-20)
+      ha-color-fill-primary-quiet-active: var(--ha-color-primary-10)
+      ha-color-fill-primary-normal-resting: var(--ha-color-primary-20)
+      ha-color-fill-primary-normal-hover: var(--ha-color-primary-30)
+      ha-color-fill-primary-normal-active: var(--ha-color-primary-20)
+      ha-color-fill-primary-loud-resting: var(--ha-color-primary-40)
+      ha-color-fill-primary-loud-hover: var(--ha-color-primary-50)
+      ha-color-fill-primary-loud-active: var(--ha-color-primary-40)
+
+      # HA Semantic Colors - Fill Neutral
+      ha-color-fill-neutral-quiet-resting: var(--ha-color-neutral-10)
+      ha-color-fill-neutral-quiet-hover: var(--ha-color-neutral-20)
+      ha-color-fill-neutral-quiet-active: var(--ha-color-neutral-10)
+      ha-color-fill-neutral-normal-resting: var(--ha-color-neutral-20)
+      ha-color-fill-neutral-normal-hover: var(--ha-color-neutral-30)
+      ha-color-fill-neutral-normal-active: var(--ha-color-neutral-20)
+      ha-color-fill-neutral-loud-resting: var(--ha-color-neutral-40)
+      ha-color-fill-neutral-loud-hover: var(--ha-color-neutral-50)
+      ha-color-fill-neutral-loud-active: var(--ha-color-neutral-40)
+
+      # HA Semantic Colors - Fill Disabled
+      ha-color-fill-disabled-quiet-resting: var(--ha-color-neutral-10)
+      ha-color-fill-disabled-normal-resting: var(--ha-color-neutral-10)
+      ha-color-fill-disabled-loud-resting: var(--ha-color-neutral-20)
+
+      # HA Semantic Colors - Fill Danger
+      ha-color-fill-danger-quiet-resting: var(--ha-color-red-10)
+      ha-color-fill-danger-quiet-hover: var(--ha-color-red-20)
+      ha-color-fill-danger-quiet-active: var(--ha-color-red-10)
+      ha-color-fill-danger-normal-resting: var(--ha-color-red-20)
+      ha-color-fill-danger-normal-hover: var(--ha-color-red-30)
+      ha-color-fill-danger-normal-active: var(--ha-color-red-20)
+      ha-color-fill-danger-loud-resting: var(--ha-color-red-50)
+      ha-color-fill-danger-loud-hover: var(--ha-color-red-40)
+      ha-color-fill-danger-loud-active: var(--ha-color-red-50)
+
+      # HA Semantic Colors - Fill Warning
+      ha-color-fill-warning-quiet-resting: var(--ha-color-orange-10)
+      ha-color-fill-warning-quiet-hover: var(--ha-color-orange-20)
+      ha-color-fill-warning-quiet-active: var(--ha-color-orange-10)
+      ha-color-fill-warning-normal-resting: var(--ha-color-orange-20)
+      ha-color-fill-warning-normal-hover: var(--ha-color-orange-30)
+      ha-color-fill-warning-normal-active: var(--ha-color-orange-20)
+      ha-color-fill-warning-loud-resting: var(--ha-color-orange-70)
+      ha-color-fill-warning-loud-hover: var(--ha-color-orange-50)
+      ha-color-fill-warning-loud-active: var(--ha-color-orange-70)
+
+      # HA Semantic Colors - Fill Success
+      ha-color-fill-success-quiet-resting: var(--ha-color-green-10)
+      ha-color-fill-success-quiet-hover: var(--ha-color-green-20)
+      ha-color-fill-success-quiet-active: var(--ha-color-green-10)
+      ha-color-fill-success-normal-resting: var(--ha-color-green-20)
+      ha-color-fill-success-normal-hover: var(--ha-color-green-30)
+      ha-color-fill-success-normal-active: var(--ha-color-green-20)
+      ha-color-fill-success-loud-resting: var(--ha-color-green-50)
+      ha-color-fill-success-loud-hover: var(--ha-color-green-40)
+      ha-color-fill-success-loud-active: var(--ha-color-green-50)
+
+      # HA Semantic Colors - On Primary
+      ha-color-on-primary-quiet: var(--ha-color-primary-50)
+      ha-color-on-primary-normal: var(--ha-color-primary-40)
+      ha-color-on-primary-loud: var(--primary-text-color)
+
+      # HA Semantic Colors - On Neutral
+      ha-color-on-neutral-quiet: var(--ha-color-neutral-50)
+      ha-color-on-neutral-normal: var(--ha-color-neutral-40)
+      ha-color-on-neutral-loud: var(--primary-text-color)
+
+      # HA Semantic Colors - On Disabled
+      ha-color-on-disabled-quiet: var(--ha-color-neutral-20)
+      ha-color-on-disabled-normal: var(--ha-color-neutral-30)
+      ha-color-on-disabled-loud: var(--ha-color-neutral-10)
+
+      # HA Semantic Colors - On Danger
+      ha-color-on-danger-quiet: var(--ha-color-red-50)
+      ha-color-on-danger-normal: var(--ha-color-red-40)
+      ha-color-on-danger-loud: var(--primary-text-color)
+
+      # HA Semantic Colors - On Warning
+      ha-color-on-warning-quiet: var(--ha-color-orange-50)
+      ha-color-on-warning-normal: var(--ha-color-orange-40)
+      ha-color-on-warning-loud: var(--primary-text-color)
+
+      # HA Semantic Colors - On Success
+      ha-color-on-success-quiet: var(--ha-color-green-50)
+      ha-color-on-success-normal: var(--ha-color-green-40)
+      ha-color-on-success-loud: var(--primary-text-color)
+
+      # New Slider/Control Variables (HA 2025.5+)
+      md-slider-inactive-track-color: var(--ha-color-neutral-40)
+      state-active-color: var(--primary-color)
+
+      # Switch unchecked colors
+      switch-unchecked-color: var(--ha-color-neutral-40)
+
     light: &metro-light
       # Text Colors
       text-primary-color: var(--primary-text-color)
@@ -1005,17 +1175,187 @@ Metro Red:
       rgb-state-vacuum-color: var(--rgb-primary-color)
 
       # HA 2025.8+ Neutral Color Palette
-      ha-color-neutral-05: "#0d0d0d"
-      ha-color-neutral-10: "#1a1a1a"
-      ha-color-neutral-20: "#333333"
-      ha-color-neutral-30: "#4d4d4d"
-      ha-color-neutral-40: "#666666"
+      ha-color-neutral-05: "#f2f2f2"
+      ha-color-neutral-10: "#e6e6e6"
+      ha-color-neutral-20: "#cccccc"
+      ha-color-neutral-30: "#b3b3b3"
+      ha-color-neutral-40: "#999999"
       ha-color-neutral-50: "#808080"
-      ha-color-neutral-60: "#999999"
-      ha-color-neutral-70: "#b3b3b3"
-      ha-color-neutral-80: "#cccccc"
-      ha-color-neutral-90: "#e6e6e6"
-      ha-color-neutral-95: "#f2f2f2"
+      ha-color-neutral-60: "#666666"
+      ha-color-neutral-70: "#4d4d4d"
+      ha-color-neutral-80: "#333333"
+      ha-color-neutral-90: "#1a1a1a"
+      ha-color-neutral-95: "#0d0d0d"
+
+      # HA 2025.8+ Orange Color Palette (for warnings/focus)
+      ha-color-orange-05: "#fff2e6"
+      ha-color-orange-10: "#ffe6cc"
+      ha-color-orange-20: "#ffcc99"
+      ha-color-orange-30: "#ffb366"
+      ha-color-orange-40: "#ff9933"
+      ha-color-orange-50: "#ff8000"
+      ha-color-orange-60: "#cc6600"
+      ha-color-orange-70: "#994d00"
+      ha-color-orange-80: "#663300"
+      ha-color-orange-90: "#331a00"
+      ha-color-orange-95: "#1a0d00"
+
+      # HA 2025.8+ Red Color Palette (for errors/danger)
+      ha-color-red-05: "#ffe6e6"
+      ha-color-red-10: "#ffcccc"
+      ha-color-red-20: "#ff9999"
+      ha-color-red-30: "#ff6666"
+      ha-color-red-40: "#ff3333"
+      ha-color-red-50: "#ff0000"
+      ha-color-red-60: "#cc0000"
+      ha-color-red-70: "#990000"
+      ha-color-red-80: "#660000"
+      ha-color-red-90: "#330000"
+      ha-color-red-95: "#1a0000"
+
+      # HA 2025.8+ Green Color Palette (for success)
+      ha-color-green-05: "#e6ffe6"
+      ha-color-green-10: "#ccffcc"
+      ha-color-green-20: "#99ff99"
+      ha-color-green-30: "#66ff66"
+      ha-color-green-40: "#33ff33"
+      ha-color-green-50: "#00ff00"
+      ha-color-green-60: "#00cc00"
+      ha-color-green-70: "#009900"
+      ha-color-green-80: "#006600"
+      ha-color-green-90: "#003300"
+      ha-color-green-95: "#001a00"
+
+      # HA Semantic Colors - Focus
+      ha-color-focus: var(--ha-color-orange-60)
+
+      # HA Semantic Colors - Text
+      ha-color-text-primary: var(--primary-text-color)
+      ha-color-text-secondary: var(--secondary-text-color)
+      ha-color-text-disabled: var(--disabled-text-color)
+      ha-color-text-link: var(--primary-color)
+
+      # HA Semantic Colors - Border Primary
+      ha-color-border-primary-quiet: var(--ha-color-primary-80)
+      ha-color-border-primary-normal: var(--ha-color-primary-70)
+      ha-color-border-primary-loud: var(--ha-color-primary-40)
+
+      # HA Semantic Colors - Border Neutral
+      ha-color-border-neutral-quiet: var(--ha-color-neutral-80)
+      ha-color-border-neutral-normal: var(--ha-color-neutral-60)
+      ha-color-border-neutral-loud: var(--ha-color-neutral-40)
+
+      # HA Semantic Colors - Border Danger
+      ha-color-border-danger-quiet: var(--ha-color-red-80)
+      ha-color-border-danger-normal: var(--ha-color-red-70)
+      ha-color-border-danger-loud: var(--ha-color-red-40)
+
+      # HA Semantic Colors - Border Warning
+      ha-color-border-warning-quiet: var(--ha-color-orange-80)
+      ha-color-border-warning-normal: var(--ha-color-orange-70)
+      ha-color-border-warning-loud: var(--ha-color-orange-40)
+
+      # HA Semantic Colors - Border Success
+      ha-color-border-success-quiet: var(--ha-color-green-80)
+      ha-color-border-success-normal: var(--ha-color-green-70)
+      ha-color-border-success-loud: var(--ha-color-green-40)
+
+      # HA Semantic Colors - Fill Primary
+      ha-color-fill-primary-quiet-resting: var(--ha-color-primary-95)
+      ha-color-fill-primary-quiet-hover: var(--ha-color-primary-90)
+      ha-color-fill-primary-quiet-active: var(--ha-color-primary-95)
+      ha-color-fill-primary-normal-resting: var(--ha-color-primary-90)
+      ha-color-fill-primary-normal-hover: var(--ha-color-primary-80)
+      ha-color-fill-primary-normal-active: var(--ha-color-primary-90)
+      ha-color-fill-primary-loud-resting: var(--ha-color-primary-40)
+      ha-color-fill-primary-loud-hover: var(--ha-color-primary-30)
+      ha-color-fill-primary-loud-active: var(--ha-color-primary-40)
+
+      # HA Semantic Colors - Fill Neutral
+      ha-color-fill-neutral-quiet-resting: var(--ha-color-neutral-95)
+      ha-color-fill-neutral-quiet-hover: var(--ha-color-neutral-90)
+      ha-color-fill-neutral-quiet-active: var(--ha-color-neutral-95)
+      ha-color-fill-neutral-normal-resting: var(--ha-color-neutral-90)
+      ha-color-fill-neutral-normal-hover: var(--ha-color-neutral-80)
+      ha-color-fill-neutral-normal-active: var(--ha-color-neutral-90)
+      ha-color-fill-neutral-loud-resting: var(--ha-color-neutral-40)
+      ha-color-fill-neutral-loud-hover: var(--ha-color-neutral-30)
+      ha-color-fill-neutral-loud-active: var(--ha-color-neutral-40)
+
+      # HA Semantic Colors - Fill Disabled
+      ha-color-fill-disabled-quiet-resting: var(--ha-color-neutral-95)
+      ha-color-fill-disabled-normal-resting: var(--ha-color-neutral-95)
+      ha-color-fill-disabled-loud-resting: var(--ha-color-neutral-80)
+
+      # HA Semantic Colors - Fill Danger
+      ha-color-fill-danger-quiet-resting: var(--ha-color-red-95)
+      ha-color-fill-danger-quiet-hover: var(--ha-color-red-90)
+      ha-color-fill-danger-quiet-active: var(--ha-color-red-95)
+      ha-color-fill-danger-normal-resting: var(--ha-color-red-90)
+      ha-color-fill-danger-normal-hover: var(--ha-color-red-80)
+      ha-color-fill-danger-normal-active: var(--ha-color-red-90)
+      ha-color-fill-danger-loud-resting: var(--ha-color-red-50)
+      ha-color-fill-danger-loud-hover: var(--ha-color-red-40)
+      ha-color-fill-danger-loud-active: var(--ha-color-red-50)
+
+      # HA Semantic Colors - Fill Warning
+      ha-color-fill-warning-quiet-resting: var(--ha-color-orange-95)
+      ha-color-fill-warning-quiet-hover: var(--ha-color-orange-90)
+      ha-color-fill-warning-quiet-active: var(--ha-color-orange-95)
+      ha-color-fill-warning-normal-resting: var(--ha-color-orange-90)
+      ha-color-fill-warning-normal-hover: var(--ha-color-orange-80)
+      ha-color-fill-warning-normal-active: var(--ha-color-orange-90)
+      ha-color-fill-warning-loud-resting: var(--ha-color-orange-70)
+      ha-color-fill-warning-loud-hover: var(--ha-color-orange-50)
+      ha-color-fill-warning-loud-active: var(--ha-color-orange-70)
+
+      # HA Semantic Colors - Fill Success
+      ha-color-fill-success-quiet-resting: var(--ha-color-green-95)
+      ha-color-fill-success-quiet-hover: var(--ha-color-green-90)
+      ha-color-fill-success-quiet-active: var(--ha-color-green-95)
+      ha-color-fill-success-normal-resting: var(--ha-color-green-90)
+      ha-color-fill-success-normal-hover: var(--ha-color-green-80)
+      ha-color-fill-success-normal-active: var(--ha-color-green-90)
+      ha-color-fill-success-loud-resting: var(--ha-color-green-50)
+      ha-color-fill-success-loud-hover: var(--ha-color-green-40)
+      ha-color-fill-success-loud-active: var(--ha-color-green-50)
+
+      # HA Semantic Colors - On Primary
+      ha-color-on-primary-quiet: var(--ha-color-primary-50)
+      ha-color-on-primary-normal: var(--ha-color-primary-40)
+      ha-color-on-primary-loud: var(--primary-text-color)
+
+      # HA Semantic Colors - On Neutral
+      ha-color-on-neutral-quiet: var(--ha-color-neutral-50)
+      ha-color-on-neutral-normal: var(--ha-color-neutral-40)
+      ha-color-on-neutral-loud: var(--primary-text-color)
+
+      # HA Semantic Colors - On Disabled
+      ha-color-on-disabled-quiet: var(--ha-color-neutral-80)
+      ha-color-on-disabled-normal: var(--ha-color-neutral-70)
+      ha-color-on-disabled-loud: var(--ha-color-neutral-95)
+
+      # HA Semantic Colors - On Danger
+      ha-color-on-danger-quiet: var(--ha-color-red-50)
+      ha-color-on-danger-normal: var(--ha-color-red-40)
+      ha-color-on-danger-loud: var(--primary-text-color)
+
+      # HA Semantic Colors - On Warning
+      ha-color-on-warning-quiet: var(--ha-color-orange-50)
+      ha-color-on-warning-normal: var(--ha-color-orange-40)
+      ha-color-on-warning-loud: var(--primary-text-color)
+
+      # HA Semantic Colors - On Success
+      ha-color-on-success-quiet: var(--ha-color-green-50)
+      ha-color-on-success-normal: var(--ha-color-green-40)
+      ha-color-on-success-loud: var(--primary-text-color)
+
+      # New Slider/Control Variables (HA 2025.5+)
+      md-slider-inactive-track-color: var(--ha-color-neutral-40)
+      state-active-color: var(--primary-color)
+
+      # Switch unchecked colors
+      switch-unchecked-color: var(--ha-color-neutral-40)
 
 
 ############################################
