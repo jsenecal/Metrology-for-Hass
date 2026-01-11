@@ -830,6 +830,19 @@ Metro Red:
       # Switch unchecked colors
       switch-unchecked-color: var(--ha-color-neutral-40)
 
+      # Control Switch Variables
+      control-switch-on-color: var(--primary-color)
+      control-switch-off-color: var(--ha-color-neutral-40)
+      control-switch-background-opacity: 0.2
+      control-switch-border-radius: 0
+      control-switch-thickness: 40px
+
+      # Control Slider Variables
+      control-slider-color: var(--primary-color)
+      control-slider-background: var(--ha-color-neutral-20)
+      control-slider-background-opacity: 1
+      control-slider-thickness: 40px
+
     light: &metro-light
       # Text Colors
       text-primary-color: var(--primary-text-color)
@@ -1357,6 +1370,19 @@ Metro Red:
       # Switch unchecked colors
       switch-unchecked-color: var(--ha-color-neutral-40)
 
+      # Control Switch Variables
+      control-switch-on-color: var(--primary-color)
+      control-switch-off-color: var(--ha-color-neutral-40)
+      control-switch-background-opacity: 0.2
+      control-switch-border-radius: 0
+      control-switch-thickness: 40px
+
+      # Control Slider Variables
+      control-slider-color: var(--primary-color)
+      control-slider-background: var(--ha-color-neutral-80)
+      control-slider-background-opacity: 1
+      control-slider-thickness: 40px
+
 
 ############################################
 # Fluent Red - Defines Fluent style anchors
@@ -1637,14 +1663,16 @@ Metro Neon Green:
   modes:
     dark:
       <<: *metro-dark
-      rgb-state-media-player-color: "22, 102, 9"
       accent-text-color: "rgb(22, 102, 9)"
-      state-active-color: "#166609"
+      state-active-color: "rgb(22, 102, 9)"
+      control-switch-on-color: "rgb(22, 102, 9)"
+      control-slider-color: "rgb(22, 102, 9)"
     light:
       <<: *metro-light
-      rgb-state-media-player-color: "22, 102, 9"
       accent-text-color: "rgb(22, 102, 9)"
-      state-active-color: "#166609"
+      state-active-color: "rgb(22, 102, 9)"
+      control-switch-on-color: "rgb(22, 102, 9)"
+      control-slider-color: "rgb(22, 102, 9)"
 
 Fluent Neon Green:
   card-mod-row-yaml: *card-mod-row
@@ -1686,18 +1714,20 @@ Fluent Neon Green:
       rgb-secondary-background-color: "57,70,57"
       card-background-color: "rgb(36,40,36)"
       rgb-card-background-color: "36,40,36"
-      rgb-state-media-player-color: "22, 102, 9"
       accent-text-color: "rgb(22, 102, 9)"
-      state-active-color: "#166609"
+      state-active-color: "rgb(22, 102, 9)"
+      control-switch-on-color: "rgb(22, 102, 9)"
+      control-slider-color: "rgb(22, 102, 9)"
     light:
       <<: *fluent-light
       secondary-background-color: "rgb(218,255,210)"
       rgb-secondary-background-color: "218,255,210"
       card-background-color: "rgb(243,255,241)"
       rgb-card-background-color: "243,255,241"
-      rgb-state-media-player-color: "22, 102, 9"
       accent-text-color: "rgb(22, 102, 9)"
-      state-active-color: "#166609"
+      state-active-color: "rgb(22, 102, 9)"
+      control-switch-on-color: "rgb(22, 102, 9)"
+      control-slider-color: "rgb(22, 102, 9)"
 
 
 Metro Orange:
