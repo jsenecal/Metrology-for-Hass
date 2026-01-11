@@ -1297,8 +1297,10 @@ Metro Neon Green:
   modes:
     dark:
       <<: *metro-dark
+      rgb-state-media-player-color: "22, 102, 9"
     light:
       <<: *metro-light
+      rgb-state-media-player-color: "22, 102, 9"
 
 Fluent Neon Green:
   card-mod-row-yaml: *card-mod-row
@@ -1340,12 +1342,14 @@ Fluent Neon Green:
       rgb-secondary-background-color: "57,70,57"
       card-background-color: "rgb(36,40,36)"
       rgb-card-background-color: "36,40,36"
+      rgb-state-media-player-color: "22, 102, 9"
     light:
       <<: *fluent-light
       secondary-background-color: "rgb(218,255,210)"
       rgb-secondary-background-color: "218,255,210"
       card-background-color: "rgb(243,255,241)"
       rgb-card-background-color: "243,255,241"
+      rgb-state-media-player-color: "22, 102, 9"
 
 
 Metro Orange:
